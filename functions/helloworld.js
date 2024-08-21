@@ -1,3 +1,3 @@
-export default function onRequest(context) {
+export function onRequest(context) {
     return new Response("hellllloooooooooo world!!!!!");
 }
