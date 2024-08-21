@@ -1,4 +1,5 @@
 import cloudflareAccessPlugin from "@cloudflare/pages-plugin-cloudflare-access";
+import { PagesFunction } from "@cloudflare/workers-types";
 
 export const onRequest: PagesFunction = cloudflareAccessPlugin({
   domain: "https://thanenotes.cloudflareaccess.com",
