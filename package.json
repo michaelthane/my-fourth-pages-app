@@ -41,7 +41,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@cloudflare/workers-types": "^4.20240821.1",
-    "typescript": "^5.5.4",
+    "typescript": "^3.2.1",
     "vitest": "^2.0.5",
     "wrangler": "^3.72.2"
   }
