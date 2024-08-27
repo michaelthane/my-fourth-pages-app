@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@cloudflare/pages-plugin-cloudflare-access": "^1.0.5",
-    "@cloudflare/workers-types": "^4.20240821.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -41,6 +40,9 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "wrangler": "^3.72.1"
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5",
+    "wrangler": "^3.72.2"
   }
 }
