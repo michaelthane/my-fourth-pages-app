@@ -5,6 +5,6 @@ export const onRequest: PagesFunction<unknown, any, PluginData> = async ({
 }) => {
   console.log('data', data);
   return new Response(
-    `Hello, ${data.cloudflareAccess.JWT.payload.email || "service user"}!`,
+    `Hello, ${data.cloudflareAccess || "service user"}!`,
   );
 };
